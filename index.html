@@ -4,78 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-Pop Event</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-gray-100 text-black font-sans">
 
-    <header class="bg-black py-4">
+    <!-- Header -->
+    <header class="bg-white shadow py-4">
         <div class="container mx-auto flex justify-between items-center px-4">
-            <div class="logo text-lg font-bold">Gihan.</div>
+            <div class="logo text-xl font-bold">Gihan.</div>
             <nav class="nav space-x-6">
                 <a href="#" class="hover:text-red-500">Home</a>
                 <a href="#" class="hover:text-red-500">Performers</a>
                 <a href="#" class="hover:text-red-500">Booking</a>
                 <a href="#" class="hover:text-red-500">Schedule</a>
-                <button class="btn-signin px-4 py-2 border border-white rounded hover:bg-white hover:text-black">Sign In</button>
+                <button class="btn-signin px-4 py-2 border border-black rounded hover:bg-black hover:text-white">Sign In</button>
             </nav>
         </div>
     </header>
 
-    <section class="text-center py-20 bg-cover bg-center" style="background-image: url('images/hero.jpg')">
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h1 class="text-4xl font-bold mb-4">Feel the Rhythm of Your Heart's Music</h1>
-            <p class="text-lg text-gray-300">The biggest, extraordinary, and spread-out K-Pop music festival all over the world.</p>
+            <h1 class="text-5xl font-tropiland font-bold mb-6">Feel the Rhythm of Your Heart's Music</h1>
+            <p class="text-lg text-gray-600">The biggest, extraordinary, and spread-out K-Pop music festival all over the world, in cooperation with all the famous K-pop industry agencies in Korea and other outstanding talents.</p>
         </div>
     </section>
 
-    <!-- Featured Artists Section -->
+    <!-- Featured Artists -->
     <section class="artists py-16">
         <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             <!-- Artist Card -->
-            <div class="artist bg-gray-800 p-4 rounded-lg">
-                <img src="images/aespa.jpg" alt="Aespa" class="w-full h-48 object-cover rounded-md">
-                <h3 class="text-lg font-bold mt-4">Aespa</h3>
-                <p class="text-gray-400">SM Entertainment</p>
-                <button class="mt-4 px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded">Show More</button>
+            <div class="artist bg-gray-100 border p-4 rounded-lg shadow">
+                <div class="w-full h-48 bg-gray-300 rounded-md flex items-center justify-center">[Image]</div>
+                <h3 class="text-xl font-bold mt-4">Red Velvet</h3>
+                <p class="text-gray-500">SM Entertainment</p>
+                <button class="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800">Show More</button>
             </div>
-            <!-- Repeat for other artists -->
-            <div class="artist bg-gray-800 p-4 rounded-lg">
-                <img src="images/redvelvet.jpg" alt="Red Velvet" class="w-full h-48 object-cover rounded-md">
-                <h3 class="text-lg font-bold mt-4">Red Velvet</h3>
-                <p class="text-gray-400">SM Entertainment</p>
-                <button class="mt-4 px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded">Show More</button>
+            <!-- Repeat -->
+            <div class="artist bg-gray-100 border p-4 rounded-lg shadow">
+                <div class="w-full h-48 bg-gray-300 rounded-md flex items-center justify-center">[Image]</div>
+                <h3 class="text-xl font-bold mt-4">Nmixx</h3>
+                <p class="text-gray-500">JYP Entertainment</p>
+                <button class="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800">Show More</button>
             </div>
-            <div class="artist bg-gray-800 p-4 rounded-lg">
-                <img src="images/nmixx.jpg" alt="Nmixx" class="w-full h-48 object-cover rounded-md">
-                <h3 class="text-lg font-bold mt-4">Nmixx</h3>
-                <p class="text-gray-400">JYP Entertainment</p>
-                <button class="mt-4 px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded">Show More</button>
-            </div>
-            <div class="artist bg-gray-800 p-4 rounded-lg">
-                <img src="images/monstax.jpg" alt="Monsta X" class="w-full h-48 object-cover rounded-md">
-                <h3 class="text-lg font-bold mt-4">Monsta X</h3>
-                <p class="text-gray-400">Starship Entertainment</p>
-                <button class="mt-4 px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded">Show More</button>
+            <div class="artist bg-gray-100 border p-4 rounded-lg shadow">
+                <div class="w-full h-48 bg-gray-300 rounded-md flex items-center justify-center">[Image]</div>
+                <h3 class="text-xl font-bold mt-4">BTS</h3>
+                <p class="text-gray-500">Big Hit Entertainment</p>
+                <button class="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800">Show More</button>
             </div>
         </div>
     </section>
 
-    <!-- Event Info Section -->
-    <section class="event-info py-16 text-center bg-gray-800">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold">The world's largest K-Pop concert event</h2>
-            <p class="mt-4 text-gray-400">Spanning all countries with dozens of groups from all agencies of the K-Pop industry.</p>
+    <!-- Event Info -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-4">The world's largest K-Pop concert event</h2>
+            <p class="text-gray-600">Spanning all countries with dozens of groups from all agencies of the K-Pop industry.</p>
         </div>
     </section>
 
-    <!-- Schedule Section -->
-    <section class="schedule py-16">
+    <!-- Schedule -->
+    <section class="py-16">
         <div class="container mx-auto px-4">
-            <h2 class="text-2xl font-bold text-center mb-8">Schedule</h2>
+            <h2 class="text-3xl font-bold text-center mb-4">Schedule</h2>
+            <p class="text-center text-gray-600 mb-8">Discover the schedule of your favorite idols, and support them at an incredibly grand concert.</p>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
                 <div class="month text-center">
                     <h3 class="text-xl font-bold text-red-500">September</h3>
-                    <ul class="mt-4 space-y-2 text-gray-400">
+                    <ul class="mt-4 space-y-2 text-gray-600">
                         <li>13 - Seoul</li>
                         <li>21 - Kuala Lumpur</li>
                         <li>25 - Jakarta</li>
@@ -84,7 +81,7 @@
                 </div>
                 <div class="month text-center">
                     <h3 class="text-xl font-bold text-red-500">October</h3>
-                    <ul class="mt-4 space-y-2 text-gray-400">
+                    <ul class="mt-4 space-y-2 text-gray-600">
                         <li>7 - Tokyo</li>
                         <li>13 - Los Angeles</li>
                         <li>22 - Houston</li>
@@ -93,7 +90,7 @@
                 </div>
                 <div class="month text-center">
                     <h3 class="text-xl font-bold text-red-500">November</h3>
-                    <ul class="mt-4 space-y-2 text-gray-400">
+                    <ul class="mt-4 space-y-2 text-gray-600">
                         <li>6 - London</li>
                         <li>12 - Manchester</li>
                         <li>15 - Melbourne</li>
@@ -101,32 +98,40 @@
                     </ul>
                 </div>
             </div>
-            <button class="mt-8 px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700">See More</button>
-        </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="cta py-16 bg-red-500 text-center">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold">Get your tickets now!</h2>
-            <button class="mt-4 px-6 py-3 bg-black text-white font-bold rounded hover:bg-gray-800">Buy Now</button>
+            <button class="mt-8 px-4 py-2 bg-black text-white rounded hover:bg-gray-700">See More</button>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer bg-black py-8">
-        <div class="container mx-auto px-4 text-center">
-            <div class="footer-logo text-lg font-bold">Gihan.</div>
-            <div class="footer-links flex justify-center space-x-4 mt-4">
-                <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
-                <a href="#" class="text-gray-400 hover:text-white">Terms of Use</a>
+    <footer class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <!-- Menu -->
+            <div>
+                <h4 class="text-xl font-bold mb-4">Menu</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li>Home</li>
+                    <li>Performers</li>
+                    <li>Booking</li>
+                    <li>Store</li>
+                </ul>
             </div>
-            <div class="newsletter mt-6">
-                <h4 class="text-gray-400">Sign up for the latest news</h4>
-                <div class="mt-2 flex justify-center space-x-2">
-                    <input type="email" placeholder="Your email address" class="px-4 py-2 rounded bg-gray-700 text-white">
-                    <button class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Submit</button>
-                </div>
+            <!-- Help -->
+            <div>
+                <h4 class="text-xl font-bold mb-4">Help</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li>Privacy and Policy</li>
+                    <li>Terms of Use</li>
+                </ul>
+            </div>
+            <!-- Social -->
+            <div>
+                <h4 class="text-xl font-bold mb-4">Social</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Website</li>
+                </ul>
             </div>
         </div>
     </footer>

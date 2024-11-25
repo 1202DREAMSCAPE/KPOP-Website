@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: [],
+  content: ['./*.html'], // Adjust paths to match your HTML files
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        tropiland: ['Tropi Land', 'sans-serif'], // Add the font here
+      },
+    },
   },
   plugins: [],
-}
+};
 
